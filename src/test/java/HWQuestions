@@ -1,0 +1,267 @@
+Java Homeworks From the first class.
+1)Create a Java program and name it Variable Values
+In your program declare variables using different ways to store all different primitive data.
+Update value of all variables
+Print the value of each updated variable -> DONE
+2)Create a Java program and name it Variables
+In your program create different type of variables to store student’s information(name, last name, grade, city, state, phone number) and then print value of those variables in the format:
+My name is  and my  last name is __
+I am A/B student
+I live in city and state__
+And my phone number is …..
+
+3)Change student’s city, state, phone number and grade. And print those updated values:
+Example:
+My name is  and I moved to new city and new state. My new phone number is
+--------------------------------------------------------------------------------------------------------------------
+Create a Java program and name it Double Comparison. Declare 2 double values and if value of first variable is higher then the second, print “Double value  is larger than  .” Otherwise print
+
+Create a Java program and name it Temperature Check. Create variable to store temperature. Your program should check if temperature is below 32 then it should print “Water will freeze with temperature ”, otherwise “Water will NOT freeze with temperature ”.
+
+ Create Java program to store 2 values for expected and actual hours. Your program should check
+if expected hours are more than  actual the program should print “You will love the course and you will succeed”,
+otherwise “Course will be very hard for you!”
+
+Write a program to check whether number is positive or negative.
+Write a Java Program to check whether number is Even or Odd
+DONE TILL HERE
+------------------------------------------------------------------------------------------------------------------
+ 1)Create a Java program and declare int variable that will hold a month.
+Based on the value of the variable your program should print the name of the month.
+
+2) You are a loan specialist and you need to ask user what is the amount of loan
+is needed. If loan is less or equal to 200,000 then you would lend the money
+otherwise you would reject the client.
+
+3)You are DMV representative and you need to ask customer their age.
+If they are 18 and older you will issue a driver license to them, otherwise you
+will offer them to get a learners permit.
+
+4)Create a Java program that will ask user to input city and temperature.
+Your program should convert Fahrenheit into celsius and print “The temperature is
+the city  is ”
+DONE
+------------------------------------------------------------------------------------------------------------------
+Prompt the user to enter person heights in inches. Person should be classified as one of the following:
+• short (under 60 inch)
+• medium(between 60 -72 inch)
+• tall (over 72 inch)
+DONE
+------------------------------------------------------------------------------------------------------------------
+Write a program that will print whether it is a weekend or weekday. If any day from 1-5 → output “It is a weekday”, anyday from 6-7 → output “It is a weekend”, any other day → output “Invalid day”
+
+Ask user to enter a number and then define if number is small, medium or large
+Small number is value between 1 and 10
+Medium number is value between 11 and 100
+Large number is value between 101 and 1000
+
+Write a program that will ask user to input inputs the current time (use 24 hour format).
+Based on the given time define:
+if hour is between 1-11 --> Morning
+if hour between 12-15 --> Afternoon
+if hour between 16-20 --> Evening
+if hour between 21-24 --> Night
+
+Write a program for user to enter his/hers birth month. Based on the month define the season.
+Example: if user is born in March, April, May → season =”Spring”
+if user is born in June, July, August →
+season =”Summer”  etc …
+At the end of the program we should see 1 output as “You were born is season __”.
+
+Write a program that will read three inputs of scores (quiz, mid term, and final scores) and determine the grade based on the following rules:
+if the average score >=90 → grade=A
+if the average score >= 70 and <90 → grade=B
+if the average score>=50 and <70 → grade=C
+if the average score<50 → grade=F
+
+Ask user to enter their country and capture it. Once values are captured print which language user speaks.
+
+Allow user to enter grade (A, B, or C etc...) and then provide explanation: A-Excellent, B-Good, C-Average, D-Bad, any other grade --> Not Acceptable. At the end your program should print which grade was entered by a user with explanation.
+
+HW:  Using scanner class create calculator. Allow user to enter 2 numbers and operator(+,-,*,/). Based on operator provide the result to user.
+Please complete this assignment in 2 ways: using if statement and switch case.
+DONE
+------------------------------------------------------------------------------------------------------------------
+Print numbers from 1 to 100 in 1 line with space
+
+Print numbers from 100 to 1
+
+Print even numbers from 20 to 1 (2 ways)
+
+Print odd numbers between 20 and 50 (2 ways)
+DONE
+------------------------------------------------------------------------------------------------------------------
+ Print numbers from 1 to 50 except those that are divisible by 3
+DONE
+------------------------------------------------------------------------------------------------------------------
+Create an array of chars and store grades into it: A,B,C,D. Then print a grade B (use 2 different ways of creating an array).
+
+Create an array of names and store all names of your group. Then print your name from that array. (use 2 different ways of creating an array).
+
+Create an array of words: Java, Saturday, day, coding, is. Print the following sentence using elements of array: “Saturday is Java coding day”.
+
+Create an array of cars and store 6 elements into it. Using 2 different loops print all values from the array.
+
+Create an array of animals and store 5 elements into it. Using 2 different loops print all elements from the array.
+
+Create an array on integers and calculate the sum of all elements in an array
+
+From an array of integer elements find the largest number.
+
+Create an array to store char values and then print those in reverse order
+DONE
+------------------------------------------------------------------------------------------------------------------
+Create a 2D array(shorter way) in which first array will consist of 4 names and second array will contain grades. Then your program should print name of the students that has A and B grade
+DONE
+
+Create 2D array of cars : american, german, korean, italian. Then retrieve all values from that array using 2 different loops
+
+Using 2D array create a grocery list.
+Inside you should have an array of veggies, fruits, dairy and sweets. Retrieve all values from that array using 2 different loops
+
+Create a 2D array or integer type and store numbers in 3 rows and 3 columns. Print the sum of all numbers.
+
+Create a 2D array or integer type where you will store odd and even numbers in 3 rows and 4 columns. Develop a program which will identify/print the even numbers only.
+
+Create 2D array of countries: north america countries, south america countries, europe countries, asian countries, african countries. Then print all values from that array using 2 different loops and calculate how many total countries been stored.
+DONE
+------------------------------------------------------------------------------------------------------------------
+Store username, password and confirm password from a user and check following requirements:
+
+Username and Password cannot be  empty, if so→ message=”Username or Password cannot be empty”.
+Password should be minimum 8 characters, if less → message=”Password is too short”.
+Password cannot contain username if so, → message=”Password cannot contain username”.
+Password should match confirmed password, if not  → message=“Passwords do not match”.
+
+Only after all requirements met → message “Your username and password has been created”
+DONE
+------------------------------------------------------------------------------------------------------------------
+Create a String and if the String is not empty perform the following:
+if the String has an odd number of characters and has 3 or more characters, print the character in the middle of the String.
+For Example String str=hello =>l
+
+Create a String and print it in reverse order (Sunday → yadnuS).
+
+Write a program that reads two people's first
+names and if they expecting boy or girl?
+Based on the input suggests a name for a baby:
+Example Output:
+Mom’s first name? Mary
+Dad’s first name? Daniel
+Boy or Girl? boy
+Suggested baby name: DANRY
+USE SUBSTRING
+Example Output:
+Mom’s first name? Mary
+Dad’s first name? Daniel
+Boy or Girl? girl
+Suggested baby name: MAIEL
+@here Please watch these videos before next class.
+------------------------------------------------------------------------------------------------------------------
+Create a String that will hold a sentence. Write a program to get a new String without any spaces.
+How would you reverse a String word by word? for example
+        // input=>This is sentence i want to reverse
+        // output=>sihT si ecnetnes i tnaw ot esrever <- DEBUG AND LEARN THIS
+
+
+How would you check if String is palindrome or not? aba=> true
+Abbc =>false
+
+How would you swap  2 strings without a temporary variable?
+NOT DONE
+------------------------------------------------------------------------------------------------------------------
+Create a method that will say Hello in different language based on the country that will passed when method is executed.
+
+Create a method createEmail(). Based on values of users firstName, lastName and email type, your method should return complete email Address. Example:  createEmail(John, Snow, gmail) → johnsnow@gmail.com
+
+Write a method to return whether given number is prime or not? <- practice this
+
+Create  class Student that will have a method getGrade. Your method should accept the score of a student and return a grade:
+score > 90 - A
+score >80 - B
+score >70 - C
+score > 50 - D
+anything else - F
+------------------------------------------------------------------------------------------------------------------
+Create a Class called SyntaxEmployee:
+Create three  variables  empID , salary and set the CEO to “Sumair”
+Create two objects of the class SyntaxEmployee
+Set the value of eID, salary for each of the objects
+Print out the eID , salary and  CEO for each of the objects
+
+Create a Class called Students
+Create three  variables  Name , ID  and  numberOfStudents
+Create three objects of the Students Class
+Set the value for  studentName , studentID and increment  the numberOfStudents for each object
+Print out  total number of students
+DONE
+------------------------------------------------------------------------------------------------------------------
+Create a method that will take a String as a parameter and returns reversed String. Method should be available to all classes within your project and accessible by class name.
+
+Create a method that will accept a String as a parameter and return a new String that consist only of vowels. Method should be available inside the class only where it was declared and executed by calling it is name
+DONE
+------------------------------------------------------------------------------------------------------------------
+Write a java Class Students that have a constructor which takes students name and 3 subject grades. Inside your class also have a method to Calculate Average Grade. Test Student class for 5 different students with different marks. Your program should print an average mark of each students name.
+
+Write a java class that have 4 constructors with 4 different access levels of constructors(private,public,default,protected) and create 4 objects of this class: 1 - inside same class; 2 - from outside the class; 3 - from different class inside different package  and observe result.
+
+Write program that have static constructor and observe result.
+DONE
+------------------------------------------------------------------------------------------------------------------
+Write a Java program called Teacher.  Identify features and 4 behaviour of that Class. Create 3 subclasses MathTeacher, ChemistryTeacher and PianoTeacher . Test all 4 classes
+------------------------------------------------------------------------------------------------------------------
+Create 1 class in which create a methods that will calculate the area of Method name must be called calculateArea
+Rectangle
+Square
+Use separate class to test your code
+
+Create a class named 'Programming'. While creating an object of the class, if nothing is passed to it, then the message "I love programming languages" should be printed. If some String is passed to it, then in place of "programming languages" the value variable should be printed. Example, if we pass "Java", then "I love Java" should be printed.
+
+Create 1 class with a static method that has 3 overloaded forms. Then call each overloaded method with specific arguments and observe result.
+
+Create 1 class with a private method that has 3 overloaded forms. Then call each overloaded method with specific arguments and observe result.
+DONE
+------------------------------------------------------------------------------------------------------------------
+Create a class 'Degree' having a method 'getPrerequisite' that prints ""To get a degree you need high school diploma"".
+Class 'Degree' has 2 subclasses namely 'Bachelors' and Masters’. In Masters class override method 'getPrerequisite'.
+Call the method by creating an object of each of the three classes.
+
+Create a class CreditCard and define variable balance and interest. Create an instance method that will calculate interest based on the given balance.
+Create 2 subclasses: Visa and AX. In AX class override method calculate interest.
+Call the method by creating an object of each of the three classes.
+DONE
+------------------------------------------------------------------------------------------------------------------
+Create a Class Computer that will have 4 subclasses as Apple, Lenovo, HP, Dell.
+Define common behavior within and some fields in parent class and override some of the methods in child classes
+Define some methods specific to child classes
+Create objects of child classes and store them into array. Loop through each object and execute available methods.
+DONE
+------------------------------------------------------------------------------------------------------------------
+Create a class Insurance that will have an attribute as insuranceName and unimplemented behaviour as getQuote and cancelInsurance. Create 3 subclasses Car, Pet, Health. Car class has it’s own attribute as carModel and Class Pet has petType attribute.
+Create 3 objects of the sub classes and store them in ArrayList. Using for loop/advanced for loop/ iterator access all methods of the class.
+
+Create a Card class that will have interest rate field and card type
+  and a constructor that will initialize the fields.
+  Create 3 objects of different card and store them into LinkedList.
+  Using for loop/advanced for loop/ iterator access all methods of the class.
+
+Create a Set that will hold Objects of Student Type. In this set we do not care about the insertion order. Each student object should have name and studentID. Display name of each student.
+------------------------------------------------------------------------------------------------------------------
+Create a Person class with following private fields: name, lastName, age, salary.
+Variables should be initialized through constructor.
+Inside the class also create a method to print user details.
+
+In Test Class create a Map that will store key in ascending order. In that map store personId and a Person Object. Print each object details.
+
+2)Create a Map that will store Employee name and salary. Write a logic to retrieve an employee who gets the highest salary. Output should be in the below format
+John Smith=$100000
+3) Create the collection that will store single uniques Objects of a String type in which order is preserved.
+Write a logic to concatenate all string from the collection.
+
+Create a collection of integers in which you can keep duplicates.
+Write a logic to find sum of all integers
+------------------------------------------------------------------------------------------------------------------
+Create a method to check age eligibility that will throw a runtime exception. Method should throw an exception age is less than 16.
+
+Create a method checkUserName that will throw a runtime exception. Method should throw an exception when entered username is less than 5 characters.
+------------------------------------------------------------------------------------------------------------------
